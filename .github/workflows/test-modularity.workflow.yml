@@ -22,7 +22,7 @@ env:
   working-directory: ./modularity
 
 jobs:
-  build:
+  build-and-test:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
